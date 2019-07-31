@@ -1,0 +1,4 @@
+Game_Countdown: 5
+Default_TNT_Ticks: 80
+Default_TNT_Velocity: 2
+Min_Players: 2

@@ -1,0 +1,28 @@
+name: BombLobbers
+version: 2
+description: Mineplex's Bomb Lobbers Game!
+author: TSBloxorz
+main: me.tsbloxorz.bomblobbers.MainClass
+
+commands:
+    bl:
+        usage: /bl <join/watch/leave/status>
+        description: Bomb Lobbers Game Commands!
+        permission: bomblobbers.play
+        permission-message: You need the permission bomblobbers.play!
+    stats:
+        usage: /stats <playername>
+        description: View your own or other player's Stats!
+        permission: bomblobbers.play
+        permission-message: You need the permission bomblobbers.play!
+    setup:
+        usage: /setup <spawn/lobbyspawn/map/zone>
+        description: To setup the maps for BombLobbers
+        permission: bomblobbers.setup
+        permission-message: You need the permission bomblobbers.setup!
+    kit:
+        usage: /kit <kit/list>
+        description: To choose your kit for BombLobbers!
+        permission: bomblobbers.play
+        permission-message: You need the permission bomblobbers.play!
+
